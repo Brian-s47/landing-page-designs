@@ -56,9 +56,18 @@
 }
 /************************************ Main ****************************************/
 .main{  
-    background: green;
+    /* background: green; */
 }
 .main div{  
+    display: flex;
+    justify-content: center;
 }
 .main div img{
+    margin-bottom: 72px;
+    margin-top: 120px;
+    margin-left: 64px;
+    margin-right: 63px;
+
+    width: 1313px;
+    height: 732px;
 }
