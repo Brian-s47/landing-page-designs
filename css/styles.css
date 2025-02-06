@@ -4,3 +4,53 @@
     margin: 0;
     box-sizing: border-box;
 }
+.discover {
+    background: red;
+    padding: 20px;
+}
+.discover img{
+}
+.discover article{
+    background: blue;
+    padding: 20px;
+
+}
+.discover article h1{
+    font-family: "Avenir-Heavy";
+    font-size: 56px;
+    color: var(--color-1);
+}
+.discover article p{
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+    color: var(--color-2);
+}
+.discover article a{
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    color: var(--color-3);
+}
+.discover__images{
+
+}
+.left{
+
+}
+.right{
+
+}
+.images {
+    background: green;
+    padding: 20px;
+}
+.images div{
+
+}
+.images div img{
+
+}
+.images div span{
+    background: orange;
+    padding: 20px;
+
+}
