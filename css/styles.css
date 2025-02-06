@@ -9,12 +9,29 @@ body{
     background: var(--color-3);
 }
 .main {
-    background: red;
-    padding: 20px;
+    /* background: red; */
+    /* padding: 20px; */
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* justify-items: center; */
+    align-items: center
 }
 .article__sup {
-    background: blue;
-    padding: 20px;
+    /* background: blue; */
+    /* padding: 20px; */
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* justify-items: center; */
+    text-align: center;
+    align-items: center;
+    padding-top: 64px;
+
+    width: 610px;
+    /* height: 355px; */
 }
 .article__sup h1{
     font-family: "Avenir-Heavy";
@@ -32,6 +49,20 @@ body{
     font-family: "Avenir-Roman";
     color: var(--color-3);
     font-size: 18px;
+    /* padding-bottom: 24px; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+    width: 158px;
+    height: 54px;
+
+    background: var(--color-2);
+    border-radius: 16px;
+    text-decoration: none;
 }
 .list-images {
     background: orange;
