@@ -3,4 +3,55 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background: var(--color-4);
+}
+/**************************** Main *****************************/
+.main {
+    background: red;
+    padding: 20px;
+}
+.div__image {
+    background: blue;
+    padding: 20px;
+}
+.div__image img{ 
+}
+.article {
+    background: green;
+    padding: 20px;
+}
+.div__title {
+    background: orange;
+    padding: 20px;
+}
+.div__title h1{
+    font-family: "Avenir-Heavy";
+    font-size: 64px;
+    color: var(--color-3);
+}
+.div__title p{
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+    color: var(--color-1);
+}
+.div__title a{
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    color: var(--color-4);
+}
+.div__textlist {
+    background: violet;
+    padding: 20px;
+}
+.div__textdesing div{
+}
+.div__textlist span{
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+    color: var(--color-2);
+}
+.div__textlist p{
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-1);
 }
