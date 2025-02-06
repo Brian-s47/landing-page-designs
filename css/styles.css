@@ -65,9 +65,20 @@ body{
     text-decoration: none;
 }
 .list-images {
-    background: orange;
-    padding: 20px;
+    /* background: orange; */
+    /* padding: 20px; */
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 64px;
+
+    width: 1312px;
+    height: 592px;
 }
 .list-images img{
-
+    width: 316px;
+    height: 288px;
+    padding-bottom: 16px;
+    overflow: hidden;
 }
