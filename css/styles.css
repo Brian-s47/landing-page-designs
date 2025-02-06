@@ -4,3 +4,39 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* **************************************** Main ********************************************** */
+body{
+    background: var(--color-3);
+}
+.main {
+    background: red;
+    padding: 20px;
+}
+.article__sup {
+    background: blue;
+    padding: 20px;
+}
+.article__sup h1{
+    font-family: "Avenir-Heavy";
+    color: var(--color-2);
+    font-size: 64px;
+    padding-bottom: 24px;
+}
+.article__sup p{
+    font-family: "Avenir-Roman";
+    color: var(--color-4);
+    font-size: 26px;
+    padding-bottom: 24px;
+}
+.article__sup a{
+    font-family: "Avenir-Roman";
+    color: var(--color-3);
+    font-size: 18px;
+}
+.list-images {
+    background: orange;
+    padding: 20px;
+}
+.list-images img{
+
+}
