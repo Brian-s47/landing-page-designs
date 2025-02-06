@@ -4,3 +4,33 @@
     margin: 0;
     box-sizing: border-box;
 }
+/************************************ Header ****************************************/
+.header{
+    background: red;
+}
+.header h1{
+    font-family: "Avenir-Heavy";
+    font-size: 88px;
+    color: var(--color-1);
+}
+.header__article{
+    background: blue;
+}
+.header__article p{
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+    color: var(--color-3);
+}
+.header__article a{
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    color: var(--color-2);
+}
+/************************************ Main ****************************************/
+.main{  
+    background: green;
+}
+.main div{  
+}
+.main div img{
+}
