@@ -8,6 +8,18 @@
     --color-7:#020202;    
 }
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
+    font-family: "Playfair-Display-Bold";
+    src: url(../storage/font/Playfair-Display-Bold.ttf);
+}
+@font-face {
+    font-family: "Times-Regular";
+    src: url(../storage/font/Times-Regular.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url(../storage/font/WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Regular";
+    src: url(../storage/font/WorkSans-Regular.ttf);
 }
