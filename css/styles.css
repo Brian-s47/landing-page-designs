@@ -8,7 +8,10 @@
 /****************************** Header ******************************************/
 .header {
     /* background: red; */
-    padding: 10px;
+    /* padding: 10px; */
+    
+    display: flex;
+    padding: 64px;
 }
 .header h1{
     font-family: "Avenir-Heavy";
@@ -17,18 +20,24 @@
 }
 .header__title {
     /* background: blue; */
-    padding: 10px;
+    /* padding: 10px; */
+    
+    width: 833px;
+    height: 176px;
 }
 /****************************** Main ********************************************/
 .main {
     /* background: red; */
-    padding: 10px;
+    /* padding: 10px; */
 }
 .main__container{
 }
 .div__description{
-    background: red;
-    padding: 10px;
+    /* background: red; */
+    /* padding: 10px; */
+    
+    width: 316px;
+    height: 559px;
 }
 .div__number{
 }
@@ -43,14 +52,30 @@
     color: var(--color-2);    
 }
 .div__image{
-    background: blue;
-    padding: 10px;
+    /* background: blue; */
+    /* padding: 10px; */
+
+    position: relative;
 }
 .div__image img{
+    width: 316px;
+    height: 402px;
 }
 .div__containerTitle{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
 }
 .div__title{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    padding-inline-end: 80px;
+    width: 316px;
+    height: 147px;
+    /* background-image: linear-gradient(hsla(0, 0%, 0%, 0), hsl(0, 0%, 49%)); */
+    /* background: linear-gradient(45deg, rgba(255, 0, 150, 0.5), rgba(0, 204, 255, 0.5)); */
 }
 .div__title span{
     font-family: "Avenir-Roman";
