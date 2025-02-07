@@ -2,7 +2,9 @@
     --color-1:#252525;
     --color-2:hsla(0, 0%, 15%, 0.800);
     --color-3:hsla(0, 0%, 15%, 0.350);
-    --color-4:#FFFFFF;    
+    --color-4:#FFFFFF;
+    --color-gradient-1:hsla(0, 0%, 100%, 0%);
+    --color-gradient-2:hsl(0, 0%, 49%);     
 }
 @font-face {
     font-family: "Avenir-Heavy";
