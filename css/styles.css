@@ -4,3 +4,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    /* background-image: linear-gradient(to right, var(--color-gradiente-1), var(--color-gradiente-2)); */
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 169px;
+}
