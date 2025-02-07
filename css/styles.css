@@ -7,7 +7,7 @@
 }
 /****************************** Header ******************************************/
 .header {
-    background: red;
+    /* background: red; */
     padding: 10px;
 }
 .header h1{
@@ -16,6 +16,49 @@
     color: var(--color-1);
 }
 .header__title {
+    /* background: blue; */
+    padding: 10px;
+}
+/****************************** Main ********************************************/
+.main {
+    /* background: red; */
+    padding: 10px;
+}
+.main__container{
+}
+.div__description{
+    background: red;
+    padding: 10px;
+}
+.div__number{
+}
+.div__number span{
+    font-family: "Avenir-Heavy";
+    font-size: 40px;
+    color: var(--color-3);
+}
+.div__number p{
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-2);    
+}
+.div__image{
     background: blue;
     padding: 10px;
+}
+.div__image img{
+}
+.div__containerTitle{
+}
+.div__title{
+}
+.div__title span{
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-1); 
+}
+.div__title p{
+    font-family: "Avenir-Roman";
+    font-size: 16px;
+    color: var(--color-1); 
 }
