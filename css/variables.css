@@ -1,7 +1,21 @@
 :root{
-    --color-1:#fff;
+    --color-1:#363830;
+    --color-2:#FFFFFF;
+    --color-3:#FFFFFF;
+    --color-gradiente-1:hsl(0, 0%, 100%);
+    --color-gradiente-2:hsl(180, 100%, 100%);
+    --color-gradiente-3:hwb(0 0% 100%);
+    --color-gradiente-4:hsl(0, 0%, 100%);
 }
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
+    font-family: "Poppins-Bold";
+    src: url(../storage/font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url(../storage/font/Poppins-SemiBold.ttf);
 }
