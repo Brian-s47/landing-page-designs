@@ -4,3 +4,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background: var(--color-4);
+}
+/******************************** Main ******************************************/
+main{
+
+}
+.div__Text{
+
+}
+.div__Text li{
+    font-family: "Poppins-Bold";
+    font-size: 72px;
+    list-style: none;
+}
+.div__Text p{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-2);
+}
+.div__Text a{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-3);    
+}
+.div__Gallery{
+
+}
+.div__Gallery img{
+    
+}
