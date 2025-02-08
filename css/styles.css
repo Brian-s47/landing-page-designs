@@ -3,4 +3,90 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background: var(--color-4);
+}
+main{
+
+}
+/* ----------------------------------Shapes-decor------------------------------ */
+.div__Shapes-decor{
+    /* background: red; */
+    display: flex;
+    margin-top: 91px;
+    margin-left: 142px;
+    
+    width: 1210px;
+    height: 866px;
+}
+#Spiral{
+    position: absolute;
+
+    margin-top: 583px;
+
+    width: 133px;
+    height: 283.68px;
+}
+#Dawn1{
+    position: absolute;
+
+    margin-top: 297px;
+    margin-left: 454px;
+
+    width: 248px;
+    height: 248px;    
+}
+#Dawn2{
+    position: absolute;
+
+    margin-top: 450px;
+    margin-bottom: 159,88px;
+    margin-left: 1007px;
+
+    width: 248px;
+    height: 248px;    
+}
+.div__Shapes-decor img{
+    background: transparent;
+}
+.div__shape-wave{
+    background:  transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+
+    margin-left: 356px;
+
+    width: 355px;
+    height: 126px;
+}
+.div__shape-wave img{
+    width: 315px;
+    height: 18px; 
+}
+/* ---------------------------------------Content------------------------------ */
+.div__Content{
+
+}
+.div__Content h1{
+    
+}
+.div__Content p{
+    
+}
+.div__Content a{
+    
+}
+/* ------------------------------------Image-area------------------------------ */
+.div__Image-area{
+
+}
+/* ------------------------------------Card------------------------------------ */
+.div__Card{
+
+}
+.div__Card img{
+    
+}
+.div__Card p{
+    
 }
