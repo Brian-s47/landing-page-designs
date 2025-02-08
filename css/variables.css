@@ -1,11 +1,8 @@
 :root{
     --color-1:#363830;
     --color-2:#FFFFFF;
-    --color-3:#FFFFFF;
-    --color-gradiente-1:hsl(0, 0%, 100%);
-    --color-gradiente-2:hsl(180, 100%, 100%);
-    --color-gradiente-3:hwb(0 0% 100%);
-    --color-gradiente-4:hsl(0, 0%, 100%);
+    --color-3:#C8CCCF;
+    --color-4:#97A3A3;
 }
 @font-face {
     font-family: "Poppins-Bold";
