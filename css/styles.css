@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: var(--color-4);
+    /* background: var(--color-4); */
 }
 main{
 
@@ -65,16 +65,27 @@ main{
 }
 /* ---------------------------------------Content------------------------------ */
 .div__Content{
-
+    background: red;
+    display: flex;
+    flex-direction: column;
+}
+.div__containerContent{
+    position: absolute;
 }
 .div__Content h1{
-    
+    font-family: "Avenir-Heavy";
+    font-size: 72px;
+    color: var(--color-2);    
 }
 .div__Content p{
-    
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-3);  
 }
 .div__Content a{
-    
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-1);
 }
 /* ------------------------------------Image-area------------------------------ */
 .div__Image-area{
@@ -88,5 +99,7 @@ main{
     
 }
 .div__Card p{
-    
+    font-family: "Avenir-Roman";
+    font-size: 22px;
+    color: var(--color-3);      
 }
