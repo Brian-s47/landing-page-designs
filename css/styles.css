@@ -6,7 +6,7 @@
     /* background: var(--color-1); */
 }
 main{
-    background: red;
+    /* background: red; */
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -15,13 +15,13 @@ main{
     gap: 56px;
 }
 .div__container{
-    background: blue;
+    /* background: blue; */
     display: flex;
     align-items: center;
     gap: 126px;
 }
 .div__content{
-    background: brown;
+    /* background: brown; */
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -58,7 +58,7 @@ main{
     height: 66px;
 }
 .div__images{
-    background: violet;
+    /* background: violet; */
     margin-top: 92px;
     margin-right: 64.33px;
     width: 547.67px;
@@ -74,10 +74,20 @@ main{
     z-index: 1;
 }
 .div__list{
+    /* background: yellow; */
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 118px;
+    margin-bottom: 59.34px;
     
+    border-radius: 40px;
+    background: var(--color-2);
+    
+    width: 1312px;
+    height: 298px;
 }
 .div__list span{
-    background: green;
 }
 .div__list h3{
     font-family: "Avenir-Heavy";
@@ -90,5 +100,10 @@ main{
     color: var(--color-1);  
 }
 .div__description{
-
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    /* background: green; */
+    width: 316px;
+    height: 170px;
 }
