@@ -2,11 +2,10 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
 }
 body{
-    background-image: linear-gradient(to bottom, var(--color-3), var(--color-4)); 
+    background-image: linear-gradient(to bottom, var(--color-3) 0%, var(--color-4) 100%);
 }
 main{
     display: flex;
