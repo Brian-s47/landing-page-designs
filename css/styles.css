@@ -11,12 +11,15 @@ main{
 /* ----------------------------------Shapes-decor------------------------------ */
 .div__Shapes-decor{
     /* background: red; */
-    display: flex;
+    /* display: flex; */
     margin-top: 91px;
     margin-left: 142px;
     
     width: 1210px;
     height: 866px;
+}
+.div__containerShapes-decor{
+    position: absolute;
 }
 #Spiral{
     position: absolute;
@@ -33,7 +36,9 @@ main{
     margin-left: 454px;
 
     width: 248px;
-    height: 248px;    
+    height: 248px; 
+    
+    z-index: 1;
 }
 #Dawn2{
     position: absolute;
@@ -65,38 +70,94 @@ main{
 }
 /* ---------------------------------------Content------------------------------ */
 .div__Content{
-    background: red;
+    /* background: red; */
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    /* gap: 24px; */
+    width: 637px;
+    height: 477px; 
+    margin-top: 64px;
+    margin-left: 64px;
 }
 .div__containerContent{
     position: absolute;
 }
-.div__Content h1{
+.div__Content li{
     font-family: "Avenir-Heavy";
     font-size: 72px;
-    color: var(--color-2);    
+    color: var(--color-2); 
+    list-style: none;   
 }
 .div__Content p{
     font-family: "Avenir-Roman";
     font-size: 24px;
-    color: var(--color-3);  
+    color: var(--color-3); 
+
+    width: 519px;
+    height: 99px;
 }
 .div__Content a{
     font-family: "Poppins-Regular";
     font-size: 24px;
-    color: var(--color-1);
+    color: var(--color-4);
+    text-decoration: none;
+    border-radius: 36px;
+    background: var(--color-2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 182px;
+    height: 66px;
 }
 /* ------------------------------------Image-area------------------------------ */
 .div__Image-area{
+    /* position: absolute; */
+    /* background: red; */
 
+    margin-top: 67px;
+    margin-left: 383px;
+    width: 996px;
+    height: 893px;
+}
+.div__containerImage-area{
+    position: absolute;
+}
+#Img1{
+    position: absolute;  
+    margin-left: 680px;   
+}
+#Img2{
+    position: absolute;
+    margin-left: 340px;  
+    margin-top: 225px;  
+}
+#Img3{
+    position: absolute;
+    margin-top: 460px;  
 }
 /* ------------------------------------Card------------------------------------ */
 .div__Card{
-
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 668px;
+    height: 122px;
+    margin-top: 838px;
+    margin-left: 708px;
+}
+.div__containerCard{
+    position: absolute;
 }
 .div__Card img{
-    
+    width: 80px;
+    height: 80px;    
 }
 .div__Card p{
     font-family: "Avenir-Roman";
