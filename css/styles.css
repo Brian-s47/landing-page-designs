@@ -3,4 +3,57 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background: var(--color-1);
+}
+main{
+
+}
+.div__container{
+
+}
+.div__content{
+
+}
+.div__content h1{
+    font-family: "Avenir-Heavy";
+    font-size: 72px;
+    color: var(--color-2);
+}
+.div__content p{
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+    color: var(--color-3);    
+}
+.div__content a{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-1);
+}
+.div__images{
+
+}
+#img1{
+
+}
+#img2{
+    
+}
+.div__list{
+    
+}
+.div__list span{
+    
+}
+.div__list h3{
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+    color: var(--color-5);    
+}
+.div__list p{
+    font-family: "Avenir-Book";
+    font-size: 24px;
+    color: var(--color-1);  
+}
+.div__description{
+
 }
