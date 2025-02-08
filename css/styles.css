@@ -9,15 +9,36 @@ body{
 }
 /******************************** Main ******************************************/
 main{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 53px;
 }
 .div__Text{
+    /* background: red; */
 
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 132px;
+    margin-top: 169px;
+
+    width: 449px;
+    height: 582px;
 }
 .div__Text li{
     font-family: "Poppins-Bold";
     font-size: 72px;
     list-style: none;
+}
+#li__one{
+    color: var(--color-7);
+}
+#li__two{
+    color: var(--color-6);
+}
+#li__three{
+    color: var(--color-5);
 }
 .div__Text p{
     font-family: "Poppins-Regular";
@@ -25,12 +46,37 @@ main{
     color: var(--color-2);
 }
 .div__Text a{
+    background: var(--color-2);
+    border-radius: 36px;
     font-family: "Poppins-Regular";
     font-size: 24px;
-    color: var(--color-3);    
+    text-decoration: none;
+    color: var(--color-3);
+    /* justify-content: center; */
+    /* text-align: center; */
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 14px;
+    padding-bottom: 24px;
+    
+    width: 182px;
+    height: 66px;
 }
 .div__Gallery{
+    /* background: blue; */
 
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 67px;
+    margin-right: 64px;
+    width: 742px;
+    height: 792px;
+}
+.div_images{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 .div__Gallery img{
     
