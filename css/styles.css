@@ -13,14 +13,44 @@ body{
     gap: 169px;
 }
 .div__Heroimage{
-    background: red;
+    /* background: red; */
+    
+    display: flex;
+    align-items: flex-end;
+    margin-top: 111px;
 
     width: 656px;
     height: 861.5px;
 }
-.div__Heroimage img{
+.div__Heroimage img:nth-child(1){
+    position: absolute;
+    width: 656px;
+    height: 656px;
+    z-index: 0;
+    margin-bottom: 181.5px;
+}
+.div__Heroimage img:nth-child(2){
+    position: absolute;
+    width: 224px;
+    height: 224px;
+    z-index: 1;
+    margin-bottom: 637.5px;  
+}
+.div__Heroimage img:nth-child(3){
+    position: absolute;
+    width: 224px;
+    height: 224px;
+    z-index: 1; 
+    margin-left: 429px; 
+    margin-bottom: 70px;    
+}
+.div__Heroimage img:nth-child(4){
+    position: absolute;
     width: 618.33px;
-    height: 795.5.5px;
+    height: 795.5px;
+    z-index: 2;
+}
+.div__Heroimage img{
 }
 .div__Content{
     /* background: red; */
