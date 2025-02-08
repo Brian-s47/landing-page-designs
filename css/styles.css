@@ -3,16 +3,34 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: var(--color-1);
+    /* background: var(--color-1); */
 }
 main{
-
+    background: red;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
 }
 .div__container{
-
+    background: blue;
+    display: flex;
+    align-items: center;
+    gap: 126px;
 }
 .div__content{
+    background: brown;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 
+    width: 637px;
+    height: 414px;
+
+    margin-top: 144.33;
+    margin-left: 65px;
 }
 .div__content h1{
     font-family: "Avenir-Heavy";
@@ -28,21 +46,38 @@ main{
     font-family: "Poppins-Regular";
     font-size: 24px;
     color: var(--color-1);
+    text-decoration: none;
+    border-radius: 36px;
+    background: var(--color-2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 182px;
+    height: 66px;
 }
 .div__images{
-
+    background: violet;
+    margin-top: 92px;
+    margin-right: 64.33px;
+    width: 547.67px;
+    height: 518.66px;
 }
 #img1{
-
+    position: absolute;
 }
 #img2{
-    
+    position: absolute;
+    margin-top: 134px;
+    margin-left: 224px;
+    z-index: 1;
 }
 .div__list{
     
 }
 .div__list span{
-    
+    background: green;
 }
 .div__list h3{
     font-family: "Avenir-Heavy";
