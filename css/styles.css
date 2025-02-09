@@ -92,6 +92,13 @@ main{
 /* ------------------------------ containerimag ------------------------------- */
 .div__containerimag{
     position: absolute;
+    /* background: red; */
+
+    width: 791.67px;
+    height: 904.79px;
+
+    margin-top: 47.67px;
+    margin-left: 603.67px;
 }
 .div__imagearea{
 
@@ -100,26 +107,42 @@ main{
     position: absolute;        
 }
 #Star1{
-
+    z-index: 2;
+    margin-top: 47.67px;
+    margin-left: 20px;
 }
 #Star2{
-    
+    margin-top: 698px;
+    margin-left: 650px;    
 }
 #Phone{
-    
+    z-index: 3;
+    margin-top: 366px;
+    margin-left: 75px;
 }
 #Portal1{
-    
+    z-index: 2;
+    margin-top: 133px;
+    margin-left: 440px;    
 }
 #Heart{
-    
+    z-index: 2;
+    margin-top: 325px;
+    margin-left: 232px;     
 }
 #Bg-yellow{
-    
+    z-index: 1;
+    margin-top: 125px;
+    margin-left: 114px; 
 }
 #Portal2{
-    
+    z-index: 2;
+    margin-top: 290px;
+    margin-left: 600px;
+    transform: rotate(30deg);   
 }
 #Bg-brown{
-    
+    margin-top: 136px;
+    margin-left: 129px;
+    z-index: 0;    
 }
