@@ -1,7 +1,15 @@
 :root{
-    --color-1:#fff;
+    --color-1:#0D261B;
+    --color-2:#FFFFFF;
+    --color-3:#252525;
+    --color-4:#253538;
+    --color-5:#457D61;
 }
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Times-Regular";
+    src: url(../storage/font/Times-Regular.ttf);
 }
