@@ -102,7 +102,7 @@ main{
 .div__containercontent{
     background: linear-gradient(to bottom right, var(--color-6),var(--color-5));
     /* background: linear-gradient(to bottom right, var(--color-4),var(--color-7)); */
-    background-blend-mode: soft-light;
+    /* background-blend-mode: soft-light; */
     position: absolute;
     margin-top: 231px;
     margin-left: 401px;
