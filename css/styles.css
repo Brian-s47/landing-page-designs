@@ -13,24 +13,27 @@ main{
 
 }
 #star1{
-
+    position: absolute;
 }
 #star2{
-
+    position: absolute;
 }
 #Explosion{
-
+    position: absolute;
 }
 #Party{
-
+    position: absolute;
 }
 #Imagebottom{
-
+    position: absolute;
 }
 #Imagetop{
-
+    position: absolute;
 }
 /* -------------------------------- div__01 ----------------------------------- */
+.div__container01{
+    position: absolute;
+}
 .div__01{
 
 }
@@ -45,6 +48,9 @@ main{
     color: var(--color-2);     
 }
 /* -------------------------------- div__02 ----------------------------------- */
+.div__container02{
+    position: absolute;
+}
 .div__02{
 
 }
@@ -59,12 +65,30 @@ main{
     color: var(--color-2);
 }
 /* ------------------------------ div__content -------------------------------- */
+.div__containercontent{
+    position: absolute;
+    margin-bottom: 179px;
+    margin-left: 401px;
+}
 .div__content{
+    /* background: red; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 48px;
+
+    width: 637px;
+    height: 692px;
+
     font-family: "Times-Regular";
     font-size: 112px;
     color: var(--color-1);
 }
 .div__content h1{
+    display: flex;
+    text-align: center;
     font-family: "Times-Regular";
     font-size: 112px;
     color: var(--color-1);    
@@ -72,10 +96,25 @@ main{
 .div__content p{
     font-family: "Times-Regular";
     font-size: 24px;
-    color: var(--color-2);    
+    color: var(--color-2);
+    text-align: center; 
+    
+    width: 306px;
+    height: 128px;
 }
 .div__content a{
     font-family: "Poppins-Regular";
     font-size: 24px;
-    color: var(--color-5);    
+    color: var(--color-5);
+    
+    text-decoration: none;
+    border-radius: 36px;
+    background: var(--color-2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 182px;
+    height: 66px;
 }
