@@ -5,11 +5,15 @@
     box-sizing: border-box;
 }
 body{
-
+    background-image: linear-gradient(to right, var(--color-lienar-1), var(--color-lienar-2));
 }
 /* -------------------------- Main -------------------------------------------- */
 .main{
 
+}
+.main img{
+    position: absolute;
+    margin-left: 416px;
 }
 /* ------------------------ color-blocks -------------------------------------- */
 .div__color-blocks{
@@ -29,10 +33,14 @@ body{
     
 }
 .div__list h3{
-    
+    font-family: "Avenir-Heavy";
+    font-size: 24px;
+    color: var(--color-2);    
 }
 .div__list p{
-    
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    color: var(--color-2);        
 }
 /* --------------------------- div__content ----------------------------------- */
 .div__content{
@@ -48,11 +56,17 @@ body{
     
 }
 .div__containercontent h1{
-    
+    font-family: "Avenir-Heavy";
+    font-size: 64px;
+    color: var(--color-2);    
 }
 .div__containercontent p{
-    
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+    color: var(--color-2);
 }
 .div__containercontent a{
-    
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-8);
 }
