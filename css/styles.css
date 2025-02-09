@@ -10,45 +10,55 @@ main{
 }
 /* ------------------------------ containerlist ------------------------------- */
 .div__containerlist{
-
+    position: absolute;
 }
 .div__list{
 
 }
 .div__list span{
-    
+    font-family: "Poppins-SemiBold";
+    font-size: 24px;
+    color: var(--color-1);    
 }
 .div__list img{
     
 }
 .div__list p{
-    
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: var(--color-1);     
 }
 /* --------------------------- containercontent ------------------------------- */
 .div__containercontent{
-
+    position: absolute;
 }
 .div__content{
 
 }
 .div__content h1{
-    
+    font-family: "Poppins-Bold";
+    font-size: 64px;
+    color: var(--color-2);     
 }
 .div__content p{
-    
+    font-family: "Poppins-Light";
+    font-size: 24px;
+    color: var(--color-2);      
 }
 .div__content a{
-    
+    font-family: "Poppins-Regular";
+    font-size: 20px;
+    color: var(--color-2); 
 }
 /* ------------------------------ containerimag ------------------------------- */
 .div__containerimag{
-
+    position: absolute;
 }
 .div__imagearea{
 
 }
 .div__imagearea img{
-    
+    position: absolute;        
 }
 #Star1{
 
