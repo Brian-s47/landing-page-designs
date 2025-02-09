@@ -11,9 +11,29 @@ main{
 /* ------------------------------ containerlist ------------------------------- */
 .div__containerlist{
     position: absolute;
+    background: var(--color-5);
+    width: 650px;
+    height: 168px;
+    border-radius: 24px;
+    margin-top: 792px;
+    margin-left: 64px;
 }
 .div__list{
+    display: flex;
+    justify-content: space-around;
 
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.div__list div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    width: 110px;
+    height: 120px;
+
+    gap: 16px;
 }
 .div__list span{
     font-family: "Poppins-SemiBold";
@@ -21,7 +41,8 @@ main{
     color: var(--color-1);    
 }
 .div__list img{
-    
+    width: 38px;
+    height: 4px;
 }
 .div__list p{
     font-family: "Poppins-Regular";
