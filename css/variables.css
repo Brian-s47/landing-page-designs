@@ -1,7 +1,29 @@
 :root{
-    --color-1:#fff;
+    --color-1:hsla(0, 0%, 100%, 0.800);
+    --color-2:#FFFFFF;
+    --color-3:#3D45FF;
+    --color-4:#3FFFFF;
+    --color-5:#52DC4B;
+    --color-6:#FF6E3D;
+    --color-7:#FFFF67;
+    --color-8:#000000;
+    --color-9:#63E1E1;
+    --color-lienar-1:#09212C 0%;
+    --color-lienar-2:#043E49 100%;
+    --color-lienar-3:#000000 80%;
+    --color-lienar-4:#000000 15%;
+    --color-lienar-5:#FFFFFF 80%;
+    --color-lienar-6:#FFFFFF 44%;
 }
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
+    font-family: "Avenir-Heavy";
+    src: url(../storage/font/Avenir-Heavy.otf);
+}
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(../storage/font/Avenir-Roman.otf);
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/Poppins-Regular.ttf);
 }
