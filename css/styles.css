@@ -4,3 +4,78 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* ---------------------------------- Main ------------------------------------ */
+main{
+
+}
+/* ------------------------------- containerimg ------------------------------- */
+.div__containerimg{
+
+}
+#star1{
+
+}
+#star2{
+
+}
+#Explosion{
+
+}
+#Party{
+
+}
+#Imagebottom{
+
+}
+#Imagetop{
+
+}
+/* -------------------------------- div__01 ----------------------------------- */
+.div__01{
+
+}
+.div__01 span{
+    font-family: "Times-Bold";
+    font-size: 24px;
+    color: var(--color-3);    
+}
+.div__01 p{
+    font-family: "Times-Regular";
+    font-size: 24px;
+    color: var(--color-2);     
+}
+/* -------------------------------- div__02 ----------------------------------- */
+.div__02{
+
+}
+.div__02 span{
+    font-family: "Times-Bold";
+    font-size: 24px;
+    color: var(--color-3);  
+}
+.div__02 p{
+    font-family: "Times-Regular";
+    font-size: 24px;
+    color: var(--color-2);
+}
+/* ------------------------------ div__content -------------------------------- */
+.div__content{
+    font-family: "Times-Regular";
+    font-size: 112px;
+    color: var(--color-1);
+}
+.div__content h1{
+    font-family: "Times-Regular";
+    font-size: 112px;
+    color: var(--color-1);    
+}
+.div__content p{
+    font-family: "Times-Regular";
+    font-size: 24px;
+    color: var(--color-2);    
+}
+.div__content a{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-5);    
+}

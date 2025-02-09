@@ -15,3 +15,7 @@
     font-family: "Times-Regular";
     src: url(../storage/font/Times-Regular.ttf);
 }
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/Poppins-Regular.ttf);
+}
