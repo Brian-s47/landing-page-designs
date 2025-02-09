@@ -37,7 +37,9 @@
 
 }
 .div__arcle-text p{
-    
+    font-family: "Times-Regular";
+    font-size: 40px;
+    color: var(--color-1);    
 }
 .div__arcle-text img{
     
@@ -47,22 +49,32 @@
 
 }
 .div__text-left h1{
-    
+    font-family: "Times-Regular";
+    font-size: 64px;
+    color: var(--color-3);        
 }
 .div__text-left p{
-    
+    font-family: "Times-Regular";
+    font-size: 24px;
+    color: var(--color-3);    
 }
 .div__text-left a{
-    
+    font-family: "Poppins-Regular";
+    font-size: 20px;
+    color: var(--color-2);  
 }
 /* ------------------------------ div__text-right ---------------------------- */
 .div__text-right{
 
 }
 .div__text-right h1{
-    
+    font-family: "Times-Regular";
+    font-size: 64px;
+    color: var(--color-3);      
 }
 .div__text-right p{
-    
+    font-family: "Times-Regular";
+    font-size: 24px;
+    color: var(--color-3);  
 }
 
