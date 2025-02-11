@@ -3,5 +3,83 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+/* ------------------- body ------------------------ */
+body{
+
+}
+/* ------------------- header ---------------------- */
+header{
+
+}
+/* ---------------- div__shapeleft ----------------- */
+.div__shapeleft{
+
+}
+.div__shapeleft  div{
+    
+}
+.div__shapeleft  img{
+    
+}
+/* ---------------- div__textmiddle ----------------- */
+.div__textmiddle{
+    
+}
+.div__textmiddle h1{
+    
+}
+.div__textmiddle p{
+    
+}
+.div__textmiddle a{
+    
+}
+/* ---------------- div__shaperight ----------------- */
+.div__shaperight{
+
+}
+.div__shaperight img{
+    
+}
+/* ---------------- div__images ----------------- */
+.div__images{
+
+}
+.div__images div{
+    
+}
+/* ---------------- div__textleft ----------------- */
+.div__textleft{
+
+}
+.div__textleft p{
+
+}
+.div__textleft img{
+
+}
+/* ---------------- div__imagesleft ----------------- */
+.div__imagesleft{
+
+}
+.div__imagesleft img{
+
+}
+/* ---------------- div__imagesrigth ----------------- */
+.div__imagesrigth{
+
+}
+.div__imagesrigth img{
+
+}
+/* ---------------- div__textright ----------------- */
+.div__textright{
+
+}
+.div__textright p{
+
+}
+.div__textright img{
 
 }
