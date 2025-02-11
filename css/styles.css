@@ -10,43 +10,100 @@ body{
 }
 /* ------------------- header ---------------------- */
 header{
-
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 118px;
 }
 /* ---------------- div__shapeleft ----------------- */
 .div__shapeleft{
-
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 71px;
+    /* margin-left: 71px; */
+    gap: 56px;
+    width: 355px;
+    height: 296.69px;
 }
 .div__shapeleft  div{
-    
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 .div__shapeleft  img{
-    
+    width: 355px;
+    height: 18px;   
+}
+#CircleLeft{
+    width: 172.51px;
+    height: 172.69px;
 }
 /* ---------------- div__textmiddle ----------------- */
 .div__textmiddle{
-    
+    /* background: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    gap: 24px;
+    width: 698px;
+    height: 354px;   
 }
 .div__textmiddle h1{
     font-family: "Times-New-Roman-Bold";
-    font-size: 72px;
+    font-size: 76px;
     color: var(--color-2);  
 }
 .div__textmiddle p{
     font-family: "Times-New-Roman-regular";
     font-size: 24px;
-    color: var(--color-2);      
+    color: var(--color-2); 
+    width: 433px;
+    height: 96px;      
 }
 .div__textmiddle a{
     font-family: "Poppins-Regular";
     font-size: 16px;
-    color: var(--color-5);      
+    color: var(--color-5); 
+    text-decoration: none;
+    border-radius: 24px;
+    background: var(--color-2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 121px;
+    height: 50px;     
 }
 /* ---------------- div__shaperight ----------------- */
 .div__shaperight{
-
+    /* background: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 71px;
+    gap: 56px;
+    width: 355px;
+    height: 296.69px;
+}
+.div__shaperight  div{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 .div__shaperight img{
     
+}
+#CircleRigth{
+    width: 172.51px;
+    height: 172.69px;
 }
 /* ---------------- div__images ----------------- */
 .div__images{
