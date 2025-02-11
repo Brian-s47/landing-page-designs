@@ -6,14 +6,14 @@
 }
 /* --------------------------------------------- Body ------------------------------------------------------------- */
 body{
-    background: red;
+    background: var(--color-5);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 /* --------------------------------------------- Header ------------------------------------------------------------- */
 header{
-    background: blue;
+    /* background: blue; */
     display: flex;
     text-align: center;
 
@@ -99,10 +99,24 @@ main{
     font-size: 18px;
     color: var(--color-3);        
 }
+#image-page-17{
+    position: absolute;
+    margin-top: 143px;
+
+    width: 1312px;
+    height: 526px;
+    z-index: -1;
+}
 /* --------------------------------------------- div__Imagesbottom -------------------------------------------------- */
 .div__Imagesbottom{
-    background: violet;
-
+    /* background: violet; */
+    display: flex;
+    justify-content: space-between;
+    width: 1313px;
+    height: 344px;
+    margin-top: 462px;
+    margin-bottom: 61px;
+    gap: 40px;
 }
 .div__Imagesbottom img{
     
