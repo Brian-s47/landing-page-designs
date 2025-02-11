@@ -7,13 +7,27 @@
 /* --------------------------------------------- Body ------------------------------------------------------------- */
 body{
     background: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center
 }
 /* --------------------------------------------- Header ------------------------------------------------------------- */
 header{
+    background: blue;
+    display: flex;
+    text-align: center;
 
+    width: 695px;
+    height: 297px;
+    padding-top: 64px;
 }
 header  div{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 24px;
 }
 .div__Content{
 
@@ -31,7 +45,17 @@ header  div{
 .div__Content a{
     font-family: "Poppins-Regular";
     font-size: 24px;
-    color: var(--color-2); 
+    color: var(--color-2);
+    text-decoration: none;
+    border-radius: 36px;
+    background: var(--color-1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 182px;
+    height: 66px; 
 }
 /* --------------------------------------------- Main ------------------------------------------------------------- */
 main{
@@ -39,6 +63,7 @@ main{
 }
 /* --------------------------------------------- div__list -------------------------------------------------------- */
 .div__list{
+    background: green;
 
 }
 .div__list div{
@@ -59,6 +84,7 @@ main{
 }
 /* --------------------------------------------- div__Imagesbottom -------------------------------------------------- */
 .div__Imagesbottom{
+    background: violet;
 
 }
 .div__Imagesbottom img{
