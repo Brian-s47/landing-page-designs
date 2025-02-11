@@ -19,13 +19,19 @@ header  div{
 
 }
 .div__Content h1{
-    
+    font-family: "Poppins-SemiBold";
+    font-size: 56px;
+    color: var(--color-1);    
 }
 .div__Content p{
-    
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-4);      
 }
 .div__Content a{
-    
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-2); 
 }
 /* --------------------------------------------- Main ------------------------------------------------------------- */
 main{
@@ -38,14 +44,18 @@ main{
 .div__list div{
     
 }
-.div__list h3{
-    
+.div__list h3{ 
+    font-family: "Avenir-Heavy";
+    font-size: 24px;
+    color: var(--color-1);     
 }
 .div__list img{
     
 }
 .div__list p{
-    
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    color: var(--color-3);        
 }
 /* --------------------------------------------- div__Imagesbottom -------------------------------------------------- */
 .div__Imagesbottom{
