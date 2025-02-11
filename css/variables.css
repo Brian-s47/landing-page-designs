@@ -1,8 +1,8 @@
 :root{
     --color-1:#252525;
     --color-2:#FFFFFF;
-    --color-3:hsla(0, 0%, 100%, 0.700);
-    --color-4:hsla(0, 0%, 15%, 0.800);
+    --color-3:hsla(0, 0%, 15%, 0.700);
+    --color-4:hsla(0, 0%, 15%, 0.900);
     --color-5:#F2F2F2;
 
 }

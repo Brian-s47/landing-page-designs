@@ -9,7 +9,7 @@ body{
     background: red;
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
 }
 /* --------------------------------------------- Header ------------------------------------------------------------- */
 header{
@@ -59,15 +59,31 @@ header  div{
 }
 /* --------------------------------------------- Main ------------------------------------------------------------- */
 main{
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 /* --------------------------------------------- div__list -------------------------------------------------------- */
 .div__list{
-    background: green;
+    background: var(--color-2);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 
+    gap: 73px;
+    padding-inline: 64px;
+    margin-top: 56px;
+    width: 1051px;
+    height: 191px;
+
+    border-radius: 48px;
 }
 .div__list div{
-    
+    /* background: orange; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;  
 }
 .div__list h3{ 
     font-family: "Avenir-Heavy";
@@ -75,7 +91,8 @@ main{
     color: var(--color-1);     
 }
 .div__list img{
-    
+    width: 66px;
+    height: 4px;    
 }
 .div__list p{
     font-family: "Avenir-Roman";
