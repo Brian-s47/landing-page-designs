@@ -17,3 +17,7 @@
     font-family: "Times-New-Roman-regular";
     src: url(../storage/font/Times-New-Roman-regular.ttf);
 }
+@font-face {
+    font-family: "Times-New-Roman-Bold";
+    src: url(../storage/font/Times-New-Roman-Bold.ttf);
+}

@@ -27,13 +27,19 @@ header{
     
 }
 .div__textmiddle h1{
-    
+    font-family: "Times-New-Roman-Bold";
+    font-size: 72px;
+    color: var(--color-2);  
 }
 .div__textmiddle p{
-    
+    font-family: "Times-New-Roman-regular";
+    font-size: 24px;
+    color: var(--color-2);      
 }
 .div__textmiddle a{
-    
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: var(--color-5);      
 }
 /* ---------------- div__shaperight ----------------- */
 .div__shaperight{
@@ -54,7 +60,9 @@ header{
 
 }
 .div__textleft p{
-
+    font-family: "Times-New-Roman-Italic";
+    font-size: 28px;
+    color: var(--color-5); 
 }
 .div__textleft img{
 
@@ -78,7 +86,9 @@ header{
 
 }
 .div__textright p{
-
+    font-family: "Times-New-Roman-Italic";
+    font-size: 28px;
+    color: var(--color-5);
 }
 .div__textright img{
 
