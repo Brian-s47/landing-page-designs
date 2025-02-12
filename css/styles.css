@@ -29,7 +29,7 @@ main{
     width: 1440px;
 }
 .div__text{
-    background: orange;
+    /* background: orange; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -71,23 +71,55 @@ main{
 }
 /* div__images */
 .div__images{
-    
+    /* background: red; */
+    position: absolute;
+    display: flex;
+    margin-top: 698px;
+    margin-right: 677px;
+    gap: 24px;
+    width: 648px;
+    height: 369px;
 }
 .div__images img{
-    
+    width: 200px;
+    height: 369px;
 }
 /* div__textright */
 .div__textright{
-
+    /* background: red; */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 774px;
+    margin-left: 662px;
+    width: 483px;
+    height: 237px;
 }
 .div__Framesup{
-
+    /* background: green; */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 121px;
 }
 .div__sup{
-
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.div__sup h4{
+    font-family: "Avenir-Medium";
+    font-size: 24px;
+    color: var(--color-2);
+}
+.div__sup img{
+    width: 52px;
+    height: 6px;
 }
 .div__Framesup span{
-    
 }
 .div__Framesup p{
     font-family: "Avenir-Roman";
@@ -96,7 +128,10 @@ main{
 }
 /* div__Frameinf */
 .div__Frameinf{
-
+    display: flex;
+    gap: 16px;
+    width: 463px;
+    height: 100px;
 }
 .div__Frameinf img{
     
