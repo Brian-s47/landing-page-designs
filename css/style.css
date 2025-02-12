@@ -16,6 +16,18 @@
 }
 .text-circle {
 }
+.circle{
+    background: transparent;
+    position: absolute;
+}
+#clock{
+    background: transparent;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#circlet{
+    background: transparent;
+}
 
 /************** Main *****************/
 .main{
@@ -192,4 +204,25 @@
 }
 .div__imagegroup a:nth-child(1){
     display: flex;
+}
+#Award{
+    position: absolute;
+    margin-bottom: 389px;
+    margin-left: 435px;
+    padding-top: 18px;
+
+    font-family: "WorkSans-Regular";
+    font-size: 18px;
+    color: var(--color-3);
+    text-decoration: none;
+}
+#Ergonomic{
+    position: absolute;
+    margin-top: 497px;
+    margin-right: 380px;
+
+    font-family: "WorkSans-Regular";
+    font-size: 24px;
+    color: var(--color-3);
+    text-decoration: none;
 }
