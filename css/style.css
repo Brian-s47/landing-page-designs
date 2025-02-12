@@ -9,6 +9,7 @@
 .main {
     /* background: red; */
     /* padding: 20px; */
+    display: flex;
 }
 .div__image {
     /* background: blue; */
