@@ -7,7 +7,7 @@
 }
 body{
     /* background-image: linear-gradient(to right, var(--color-lienar-2), var(--color-lienar-3)); */
-    /* background: var(--color-lienar-2); */
+    background: var(--color-lienar-2);
 }
 /* -------------------------- Main -------------------------------------------- */
 .main{
