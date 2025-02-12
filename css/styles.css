@@ -8,16 +8,35 @@
 body{
 
 }
+/* Header */
+header{
+
+}
 /* Main */
 main{
-
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 /* div__content top */
 .div__contenttop{
-
+    background: var(--color-5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+    width: 1440px;
 }
 .div__text{
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
 
+    width: 483px;
+    height: 426px;
 }
 .div__text h1{
     font-family: "Avenir-Heavy";
@@ -33,9 +52,22 @@ main{
     font-family: "Avenir-Roman";
     font-size: 24px;
     color: var(--color-3); 
+    text-decoration: none;
+    border-radius: 36px;
+    background: var(--color-2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 288px;
+    height: 66px;
+
 }
 #Ensald{
-
+    margin-top: 86px;
+    width: 690.11px;
+    height: 671px;
 }
 /* div__images */
 .div__images{
