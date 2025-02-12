@@ -84,6 +84,11 @@ body{
 .div__arcle-text{
 
 }
+#leter{
+    position: absolute;
+    margin-top: -64px;
+    margin-left: -21px;
+}
 .div__arcle-text p{
     background: green;
     font-family: "Times-Regular";
