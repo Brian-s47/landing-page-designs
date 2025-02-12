@@ -105,48 +105,106 @@ header{
     width: 172.51px;
     height: 172.69px;
 }
+/* ---------------- Main ----------------- */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* ---------------- div__images ----------------- */
 .div__images{
-
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 23px;
 }
 .div__images div{
     
 }
 /* ---------------- div__textleft ----------------- */
 .div__textleft{
-
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 24px;
+    width: 177px;
+    height: 174px;
+    margin-bottom: 408px;
+}
+.div__textleft div{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 .div__textleft p{
+    display: flex;
     font-family: "Times-New-Roman-Italic";
-    font-size: 28px;
-    color: var(--color-5); 
+    font-size: 24px;
+    color: var(--color-2); 
+}
+#rectangleleft{
+    width: 162px;
+    height: 6px;
 }
 .div__textleft img{
-
+    width: 180px;
+    height: 250px;
 }
 /* ---------------- div__imagesleft ----------------- */
 .div__imagesleft{
-
+    /* background: green; */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 41px;
+    width: 257px;
+    height: 541px;
 }
 .div__imagesleft img{
 
 }
 /* ---------------- div__imagesrigth ----------------- */
 .div__imagesrigth{
-
+    /* background: orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-top: 40px;
+    width: 257px;
+    height: 541px;
 }
 .div__imagesrigth img{
 
 }
 /* ---------------- div__textright ----------------- */
 .div__textright{
-
+    /* background: yellow; */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 24px;
+    width: 177px;
+    height: 174px;
+    margin-bottom: 67px;
+}
+.div__textright div{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 .div__textright p{
     font-family: "Times-New-Roman-Italic";
-    font-size: 28px;
-    color: var(--color-5);
+    font-size: 24px;
+    color: var(--color-2);
+}
+#rectangleright{
+    width: 162px;
+    height: 6px;
 }
 .div__textright img{
-
+    width: 180px;
+    height: 250px;
 }
