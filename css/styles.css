@@ -10,14 +10,30 @@ body{
 }
 /* ---------------------------- Main ------------------------------ */
 main{
-
+    display: grid;
+    /* grid-template-rows: 1fr 0.5fr 1fr; */
+    grid-template-rows: 655px 154px 536px;
+    grid-gap: 77px;
 }
 /* ------------------------- section__sup ------------------------- */
 .section__sup{
+    background: red;
+    grid-row: 1;
 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .div__Content{
+    background: green;
+    grid-column: 1;
 
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    width: 464px;
+    height: 498px;
 }
 .div__Content div{
 
@@ -25,7 +41,7 @@ main{
 .div__Content h1{
     font-family: "PlayfairDisplay-Bold";
     font-size: 64px;
-    color: var(--color-2);    
+    color: var(--color-2);
 }
 .div__Content p{
     font-family: "PlayfairDisplay-Regular";
@@ -36,13 +52,35 @@ main{
     font-family: "Avenir-Roman";
     font-size: 24px;
     color: var(--color-3); 
+
+    text-decoration: none;
+    border-radius: 36px;
+    background: var(--color-2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 179px;
+    height: 66px;
 }
 
 .div__Heroimages{
+    background: blue;
+    grid-column: 2;
 
+    width: 592.48px;
+    height: 592.48px;
 }
 .div__Heroimages img{
-    
+    position: absolute;
+}
+.div__Heroimages img:first-child {
+
+}
+.div__Heroimages img:last-child {
+    bottom: 208px;
+    right: 96px;
 }
 /* ------------------------- section__mid ------------------------- */
 .section__mid{
