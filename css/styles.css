@@ -23,13 +23,19 @@ main{
 
 }
 .div__Content h1{
-    
+    font-family: "PlayfairDisplay-Bold";
+    font-size: 64px;
+    color: var(--color-2);    
 }
 .div__Content p{
-    
+    font-family: "PlayfairDisplay-Regular";
+    font-size: 24px;
+    color: var(--color-2);      
 }
 .div__Content a{
-    
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-3); 
 }
 
 .div__Heroimages{
@@ -52,10 +58,14 @@ main{
     
 }
 .div__list span{
-    
+    font-family: "Poppins-SemiBold";
+    font-size: 32px;
+    color: var(--color-2); 
 }
 .div__list p{
-    
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: var(--color-2); 
 }
 /* ------------------------- section__bot ------------------------- */
 .section__bot{
@@ -68,5 +78,7 @@ main{
     
 }
 .section__bot p{
-    
+    font-family: "Poppins-Light";
+    font-size: 16px;
+    color: var(--color-3); 
 }
