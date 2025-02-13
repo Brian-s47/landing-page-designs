@@ -13,11 +13,14 @@ main{
     display: grid;
     /* grid-template-rows: 1fr 0.5fr 1fr; */
     grid-template-rows: 655px 154px 536px;
-    grid-gap: 77px;
+    /* grid-gap: 77px; */
+    grid-template-areas: "section__sup"
+    "section__mid"
+    "section__bot";
 }
 /* ------------------------- section__sup ------------------------- */
 .section__sup{
-    background: red;
+    /* background: red; */
     grid-row: 1;
 
     display: flex;
@@ -25,7 +28,7 @@ main{
     align-items: center;
 }
 .div__Content{
-    background: green;
+    /* background: green; */
     grid-column: 1;
 
     display: flex;
@@ -66,33 +69,57 @@ main{
 }
 
 .div__Heroimages{
-    background: blue;
+    /* background: blue ; */
     grid-column: 2;
 
     width: 592.48px;
     height: 592.48px;
 }
 .div__Heroimages img{
-    position: absolute;
+    /* position: absolute; */
 }
-.div__Heroimages img:first-child {
+#Maskgroup2{
 
 }
-.div__Heroimages img:last-child {
-    bottom: 208px;
-    right: 96px;
+#Maskgroup1{
+    position: absolute;
+    /* display: flex; */
+    right: 31px;
+    top: 311px;
+    /* margin-bottom: 0; */
+    /* margin-top: 0; */
+    /* margin-right: 0; */
 }
 /* ------------------------- section__mid ------------------------- */
 .section__mid{
+    /* background: red; */
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .div__list{
+    /* background: blue; */
+    background: var(--color-8);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
+    border-radius: 80px;
+    margin-top: 40px;
+
+    width: 878px;
+    height: 188px;
 }
 .div__list div{
-    
+    display: flex;
+    flex-direction: column;
+
+    width: 170px;
+    height: 140px;    
 }
 .div__list img{
+    width: 36px ;
     
 }
 .div__list span{
@@ -107,10 +134,18 @@ main{
 }
 /* ------------------------- section__bot ------------------------- */
 .section__bot{
-
+    background: var(--color-6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -47px;
+    margin-bottom: 64px ;
+    gap: 46px;
+    height: 472px;
+    z-index: -1;
 }
 .section__bot div{
-    
+    margin-top: 100px;
 }
 .section__bot img{
     
