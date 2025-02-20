@@ -1,0 +1,165 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--color-2);
+}
+/* --------------------------------- Main ------------------------------------- */
+.main{
+
+}
+/* -------------------------------- Main-img ----------------------------------- */
+#Star1{
+    position: absolute;
+    margin-top: 163px;
+    margin-left: 396px;
+}
+#Star2{
+    position: absolute;
+    margin-top: 423px;
+    margin-left: 1028px;
+}
+/* ------------------------------ div__images-left ----------------------------- */
+.div__images-left{
+    /* background: red; */
+    position: absolute;
+
+    display: flex;
+    
+    gap: 22px;
+    width: 373.69px;
+    height: 364.21px;
+
+    margin-top: 525.39px;
+    margin-left: 64px;
+}
+#Frame1{
+    margin-top: 65.61px;
+}
+.div__images-left img{ 
+    width: 176px;
+    height: 298px;   
+}
+/* ------------------------------ div__images-right ----------------------------- */
+.div__images-right{
+    /* background: red; */
+    position: absolute;
+
+    display: flex;
+    
+    gap: 22px;
+    width: 373.69px;
+    height: 364.21px;
+
+    margin-top: 66px;
+    margin-left: 984px;
+}
+#Frame5{
+    margin-top: 105px;
+}
+.div__images-right img{
+    width: 176px;
+    height: 298px; 
+}
+/* ------------------------------ div__images-middle ---------------------------- */
+.div__images-middle{
+        /* background: red; */
+        position: absolute;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+        gap: 22px;
+        width: 415.48px;
+        height: 709px;
+    
+        margin-top: 180px;
+        margin-left: 512px;
+}
+.div__arcle-text{
+
+}
+#leter{
+    position: absolute;
+    margin-top: -64px;
+    margin-left: -21px;
+}
+.div__arcle-text p{
+    background: green;
+    font-family: "Times-Regular";
+    font-size: 40px;
+    color: var(--color-1);    
+}
+.div__arcle-text img{
+    
+}
+/* ------------------------------ div__text-left ---------------------------- */
+.div__text-left{
+    /* background: red; */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    width: 356px;
+    height: 482px;
+
+    margin-top: 88px;
+    margin-left: 64px;
+}
+.div__text-left h1{
+    font-family: "Times-Regular";
+    font-size: 64px;
+    color: var(--color-3);        
+}
+.div__text-left p{
+    font-family: "Times-Regular";
+    font-size: 24px;
+    color: var(--color-3);    
+}
+.div__text-left a{
+    font-family: "Poppins-Regular";
+    font-size: 20px;
+    color: var(--color-2);
+    
+    text-decoration: none;
+    border-radius: 36px;
+    background: var(--color-5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 177px;
+    height: 66px;
+}
+/* ------------------------------ div__text-right ---------------------------- */
+.div__text-right{
+        /* background: red; */
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    
+        width: 280px;
+        height: 432px;
+    
+        margin-top: 528px;
+        margin-left: 1028px;
+}
+.div__text-right h1{
+    font-family: "Times-Regular";
+    font-size: 64px;
+    color: var(--color-3);      
+}
+.div__text-right p{
+    font-family: "Times-Regular";
+    font-size: 24px;
+    color: var(--color-3);  
+}
+
