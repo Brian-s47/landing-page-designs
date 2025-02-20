@@ -1,0 +1,105 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+body{
+    background-image: linear-gradient(to bottom, var(--color-3) 0%, var(--color-4) 100%);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 926px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+}
+#Image-right{
+    position: absolute;
+    margin-left: 836px;
+    /* margin-top: 4px; */
+    width: 537.4px;
+    height: 512px;
+    z-index: -1;
+}
+#Image-left{
+    position: absolute;
+    margin-left: 64px;
+    margin-top: 420px;
+    width: 462px;
+    height: 508px;
+    z-index: -1; 
+}
+.div__text{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 64px; */
+    margin-left: 295px;
+    gap: 16px;
+    width: 756px;
+    height: 310px; 
+}
+.div__text h1{
+    font-family: "Poppins-Bold";
+    font-size: 88px;
+    color: var(--color-1); 
+}
+.div__text p{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-1);    
+}
+.div__text a{
+    text-align: center;
+    background: var(--color-1);
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-2); 
+    text-decoration: none;
+    width: 182px;
+    height: 66px; 
+    border-radius: 36px;
+}
+.div__list{
+    background-image: linear-gradient(to bottom, var(--color-3), var(--color-4));
+    border-radius: 144px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+
+    margin-left: 418px;
+    /* margin-bottom: 63px; */
+    margin-top: 581px;
+
+    width: 948px;
+    height: 272px; 
+}
+.div__containerlist{
+    /* background: red; */
+    display: flex;
+    gap: 80px;
+}
+.div__contentlist{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 204px;
+    height: 192px;
+}
+.div__rectangle{
+
+}
+.div__list span{
+    font-family: "Poppins-SemiBold";
+    font-size: 24px;
+    color: var(--color-1); 
+}
+.div__list p{
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: var(--color-1);     
+}
