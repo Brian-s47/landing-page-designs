@@ -1,0 +1,185 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: var(--color-2);
+}
+/************************************ Header ****************************************/
+.header{
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    /* justify-items: center; */
+    /* align-items: center; */
+}
+.header h1{
+    font-family: "Avenir-Heavy";
+    font-size: 88px;
+    color: var(--color-1);
+
+    text-align: center;
+    margin-left: 64px;
+    margin-top: 122px;
+}
+.header__article{
+    /* background: blue; */
+    width: 526px;
+    height: 174px; 
+
+    margin-right: 63px;
+    margin-top: 122px;
+}
+.header__article p{
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+    color: var(--color-3);
+
+    margin-bottom: 16px;
+}
+.header__article a{
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    color: var(--color-2);
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    text-decoration: none;
+    border-radius: 16px;
+    background: var(--color-1);
+
+    width: 157px;
+    height: 50px;
+}
+/************************************ Main ****************************************/
+.main{  
+    /* background: green; */
+}
+.main div{  
+    display: flex;
+    justify-content: center;
+}
+.main div img{
+    margin-bottom: 72px;
+    margin-top: 120px;
+    margin-left: 64px;
+    margin-right: 63px;
+
+    width: 1313px;
+    height: 732px;
+}@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.discover {
+    /* background: red; */
+    /* padding: 20px; */
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+    padding-inline-end: 64px;
+    padding-inline-start: 60px;
+
+    /* width: 408px;
+    height: 480px; */
+}
+.discover img{
+}
+.discover article{
+    /* background: blue; */
+    /* padding: 20px; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 65px;
+
+    /* width: 444px; */
+    /* height: 473px;   */
+}
+.discover article h1{
+    font-family: "Avenir-Heavy";
+    font-size: 56px;
+    color: var(--color-1);
+    
+    /* padding-bottom: 24px; */
+}
+.discover article p{
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+    color: var(--color-2);
+
+    padding-bottom: 24px;
+
+    width: 386px;
+    height: 174px;
+}
+.discover article a{
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    color: var(--color-3);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border-radius: 16px;
+    background: var(--color-1);
+    text-decoration: none;
+
+    width: 157px;
+    height: 50px;
+}
+.discover__images{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 35px;
+}
+.left{
+    width: 408px;
+    height: 480px;
+    /* padding-bottom: 50px; */
+    margin-bottom: 50px;
+}
+.right{
+    width: 408px;
+    height: 480px;
+    margin-top: 100px;
+    /* padding-top: 152px; */
+}
+.images {
+    /* background: green; */
+    /* padding: 20px; */
+
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding-top: 72px;
+    padding-inline-start: 64px;
+    padding-inline-end: 60px;
+    padding-bottom: 72px;
+}
+.images div{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.images div img{
+    width: 412px;
+    height: 381px;
+}
+.images div span{
+    /* background: orange; */
+    /* padding: 20px; */
+
+    font-family: "Avenir-Heavy";
+    font-size: 40px;
+    color: var(--color-4);
+}
