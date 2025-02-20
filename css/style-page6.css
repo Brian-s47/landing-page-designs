@@ -1,0 +1,228 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: var(--color-3);
+}
+/************** Header *****************/
+.header {
+    width: 101.04px;
+    height: 101.16px;
+    /* padding: 64.75px; */
+    margin-top: 64.75px;
+    margin-left: 64.75px;
+    /* margin-bottom: 55.1px; */
+}
+.text-circle {
+}
+.circle{
+    background: transparent;
+    position: absolute;
+}
+#clock{
+    background: transparent;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#circlet{
+    background: transparent;
+}
+
+/************** Main *****************/
+.main{
+    /* background: red; */
+    /* padding: 10px; */
+
+    display: flex;
+    padding-top: 55.1px;
+    padding-inline-start: 64px;
+}
+.article__content {
+    /* background: blue; */
+    /* padding: 10px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 653px;
+    height: 648px;
+}
+.article__content h1{
+    font-family: "Playfair-Display-Bold";
+    font-size: 64px;
+    color: var(--color-4);
+    margin-inline-start: 24px;
+}
+.article__content p{
+    font-family: "WorkSans-Regular";
+    font-size: 24px;
+    color: var(--color-1);
+    margin-inline-start: 24px;
+}
+.div__buttons {
+    /* background: green; */
+    /* padding: 10px; */
+
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+    margin-left: 24px;
+}
+.div__buttons a{
+    text-decoration: none;
+}
+.primari__button {
+    background: var(--color-4);
+    padding: 10px;
+    width: 219px;
+    height: 66px;
+    border-radius: 16px;
+}
+.primari__button a{
+    background: var(--color-4);
+    font-family: "WorkSans-Medium";
+    font-size: 24px;
+    color: var(--color-3);
+}
+.secondary__button {
+    /* background: yellow; */
+    /* padding: 10px; */
+    width: 219px;
+    height: 66px;
+    border-radius: 16px;
+}
+.secondary__button a{
+    font-family: "WorkSans-Medium";
+    font-size: 24px;
+    color: var(--color-1);
+}
+.div__list {
+    /* background: brown; */
+    padding: 24px;
+    display: flex;
+    border-radius: 24px;
+    border: 1px solid ;
+    border-color: var(--color-2);
+    margin-top: 50px;
+    gap: 80px;
+}
+.div__list span{
+}
+.div__list a{
+    font-family: "WorkSans-Regular";
+    font-size: 16px;
+    color: var(--color-2);
+    text-decoration: none;
+}
+.div__list img{
+}
+.div__list div{
+    display: flex;
+    flex-direction: column;
+    
+    width: 91px;
+    height: 70px;
+    /* padding: 24px; */
+}
+.div__frame1 {
+}
+.div__frame2 {
+}
+.div__frame3 {
+}
+.div__frame4 {
+}
+.div__imagegroup{
+    /* background: red; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    margin-inline-start: 24px;
+    width: 635.31px;
+    height: 778.19px;
+}
+.div__imagegroup img:nth-child(1){
+    display: flex;
+    position: absolute;
+    margin-bottom: 735.15px;
+    margin-right: 563.15px;
+    width: 138.85px;
+    height: 138.85px;
+    z-index: 1;
+    background: transparent;
+}
+.div__imagegroup img:nth-child(2){
+    display: flex;
+    position: absolute;
+    margin-bottom: 173px;
+    margin-right: 89px;
+    width: 480px;
+    height: 568px;
+    z-index: 0;
+    background: transparent;
+}
+.div__imagegroup img:nth-child(3){
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    background: transparent;
+    width: 480px;
+    height: 628px;
+}
+.div__imagegroup img:nth-child(4){
+    display: flex;
+    width: 310px;
+    height: 476px;
+    background: transparent;
+    z-index: 0;
+    margin-top: 270px;
+    margin-left: 240px;
+}
+.div__imagegroup a{
+    font-family: "WorkSans-Regular";
+    font-size: 24px;
+    color: var(--color-3);
+    text-decoration: none;
+
+    width: 256px;
+    height: 60px;
+    background: var(--color-5);
+    border-radius: 16px;
+
+    padding-top: 16px;
+
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+}
+.div__imagegroup a:nth-child(1){
+    display: flex;
+}
+#Award{
+    position: absolute;
+    margin-bottom: 389px;
+    margin-left: 435px;
+    padding-top: 18px;
+
+    font-family: "WorkSans-Regular";
+    font-size: 18px;
+    color: var(--color-3);
+    text-decoration: none;
+}
+#Ergonomic{
+    position: absolute;
+    margin-top: 497px;
+    margin-right: 380px;
+
+    font-family: "WorkSans-Regular";
+    font-size: 24px;
+    color: var(--color-3);
+    text-decoration: none;
+}
