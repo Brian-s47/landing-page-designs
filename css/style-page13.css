@@ -1,0 +1,166 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ---------------------------------- Main ------------------------------------ */
+main{
+
+}
+/* ------------------------------- containerimg ------------------------------- */
+.div__containerimg{
+
+}
+#star1{
+    position: absolute;
+    background: transparent;
+    width: 255px;
+    height: 320px;
+    margin-top: 237px;
+    margin-left: 311px;
+    z-index: 1;
+}
+#star2{
+    position: absolute;
+    background: transparent;
+    width: 191px;
+    height: 242px;
+    margin-top: 535px;
+    margin-left: 921px;
+    z-index: 1;
+}
+#Explosion{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 83.88px;
+}
+#Party{
+    position: absolute;
+    /* background: red; */
+    margin-top: 647px;
+    margin-left: 1135px;
+}
+#Imagebottom{
+    position: absolute;
+    margin-top: 432px;
+    margin-left: 83.88px;
+}
+#Imagetop{
+    position: absolute;
+    margin-top: 64px;
+    margin-left: 964px;
+}
+/* -------------------------------- div__01 ----------------------------------- */
+.div__container01{
+    /* background: blue; */
+    position: absolute;
+    gap: 4px;
+    width: 434px;
+    height: 104px;
+    margin-top: 99px;
+    margin-left: 64px;
+}
+.div__01{
+    display: flex;
+    flex-direction: column;
+}
+.div__01 span{
+    font-family: "Times-Bold";
+    font-size: 24px;
+    color: var(--color-3);    
+}
+.div__01 p{
+    font-family: "Times-Regular";
+    font-size: 24px;
+    color: var(--color-2);     
+}
+/* -------------------------------- div__02 ----------------------------------- */
+.div__container02{
+    /* background: red; */
+    position: absolute;
+    gap: 4px;
+    width: 434px;
+    height: 104px;
+    margin-top: 812px;
+    margin-left: 942px;
+}
+.div__02{
+
+}
+.div__02 span{
+    font-family: "Times-Bold";
+    font-size: 24px;
+    color: var(--color-3);  
+}
+.div__02 p{
+    font-family: "Times-Regular";
+    font-size: 24px;
+    color: var(--color-2);
+}
+/* ------------------------------ div__content -------------------------------- */
+.div__containercontent{
+    /* background: linear-gradient(to bottom right, var(--color-6),var(--color-5)); */
+    /* background: linear-gradient(to bottom right, var(--color-4),var(--color-7)); */
+    /* background-blend-mode: soft-light; */
+    position: absolute;
+    margin-top: 231px;
+    margin-left: 401px;
+}
+#Gradientbg{
+    position: absolute;
+    z-index: -1;
+}
+.div__content{
+    /* background: red; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 48px;
+
+    width: 637px;
+    height: 692px;
+
+    font-family: "Times-Regular";
+    font-size: 112px;
+    color: var(--color-1);
+}
+.div__content h1{
+    display: flex;
+    text-align: center;
+    font-family: "Times-Regular";
+    font-size: 112px;
+    color: var(--color-1);    
+}
+.div__content p{
+    font-family: "Times-Regular";
+    font-size: 24px;
+    color: var(--color-2);
+    text-align: center; 
+    
+    width: 306px;
+    height: 128px;
+}
+.div__content a{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-5);
+    
+    text-decoration: none;
+    border-radius: 36px;
+    background: var(--color-2);
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+    padding-right: 48px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 182px;
+    height: 66px;
+}
