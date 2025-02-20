@@ -1,0 +1,107 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: var(--color-4);
+}
+/****************************** Header ******************************************/
+.header {
+    /* background: red; */
+    /* padding: 10px; */
+
+    display: flex;
+    padding: 64px;
+}
+.header h1{
+    font-family: "Avenir-Heavy";
+    font-size: 72px;
+    color: var(--color-1);
+}
+.header__title {
+    /* background: blue; */
+    /* padding: 10px; */
+    
+    width: 833px;
+    height: 176px;
+}
+/****************************** Main ********************************************/
+.main {
+    /* background: red; */
+    /* padding: 10px; */
+
+}
+.main__container{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 64px;
+
+    width: 1312px;
+    height: 559px;
+}
+.div__description{
+    /* background: red; */
+    /* padding: 10px; */
+    
+    /* display: flex; */
+    width: 316px;
+    height: 559px;
+}
+.div__number{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.div__number span{
+    font-family: "Avenir-Heavy";
+    font-size: 40px;
+    color: var(--color-3);
+}
+.div__number p{
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-2);    
+}
+.div__image{
+    /* background: blue; */
+    /* padding: 10px; */
+    
+    position: relative;
+    padding-top: 24px;    
+}
+.div__image img{
+    width: 316px;
+    height: 402px;
+    
+}
+.div__containerTitle{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: transparent;
+}
+.div__title{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    padding-inline-end: 80px;
+    width: 316px;
+    height: 147px;
+    background: linear-gradient(var(--color-gradient-1), var(--color-gradient-2));
+    /* background: transparent; */
+    border-radius: 24px;
+}
+.div__title span{
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-1); 
+    background: transparent;
+}
+.div__title p{
+    font-family: "Avenir-Roman";
+    font-size: 16px;
+    color: var(--color-1); 
+    background: transparent;
+}
