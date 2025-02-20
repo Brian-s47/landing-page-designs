@@ -1,0 +1,129 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    /* background-image: linear-gradient(to right, var(--color-lienar-2), var(--color-lienar-3)); */
+    background: var(--color-lienar-2);
+}
+/* -------------------------- Main -------------------------------------------- */
+.main{
+
+}
+.main img{
+    position: absolute;
+    margin-left: 416px;
+}
+/* ------------------------ color-blocks -------------------------------------- */
+.div__color-blocks{
+
+}
+.div__boxColor{
+
+}
+/* --------------------------- div__list -------------------------------------- */
+.div__list{
+    /* background: red; */
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border-radius: 32px;
+    border: solid 1px var(--color-2);
+    backdrop-filter: blur(5px); 
+
+    margin-left: 64px;
+    margin-top: 791px;
+    width: 1312px;
+    height: 171px;
+}
+.div__list div{
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 231px;
+    height: 123px;
+}
+.div__list span{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    width: 24px;
+    height: 24px;   
+}
+.div__list img{
+    
+}
+.div__list h3{
+    font-family: "Avenir-Heavy";
+    font-size: 24px;
+    color: var(--color-2);    
+}
+.div__list p{
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    color: var(--color-2);        
+}
+/* --------------------------- div__content ----------------------------------- */
+.div__content{
+    position: absolute;
+    /* background: blue; */
+    backdrop-filter: blur(5px);
+
+    margin-left: 64px;
+    margin-top: 193px;
+    width: 612px;
+    height: 438px;
+}
+.div__containercontent{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-inline: 56px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 24px;
+    backdrop-filter: blur(5px);
+}
+.div__containercontent div{
+    
+}
+.div__containercontent span{
+    display: inline-block;
+    width: 80px;
+    height: 16px;
+    background-image: linear-gradient(to right, var(--color-7) 0 12.5%, var(--color-9) 12.5% 25%, var(--color-5) 25% 37.5%, var(--color-6) 37.5% 50%, var(--color-3) 50% 100%);
+    background-repeat: repeat-x;
+    background-size: 128px 16px;
+}
+.div__containercontent h1{
+    font-family: "Avenir-Heavy";
+    font-size: 64px;
+    color: var(--color-2);    
+}
+.div__containercontent p{
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+    color: var(--color-2);
+}
+.div__containercontent a{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-8);
+
+    text-decoration: none;
+    border-radius: 36px;
+    background: var(--color-9);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 182px;
+    height: 66px;
+}
