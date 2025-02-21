@@ -1,0 +1,128 @@
+@import url(variables-main.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* **************************************** body ********************************************** */
+body{
+    width: 1280px;
+    height: 760px;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+/* **************************************** header ******************************************** */
+header{
+
+}
+/* **************************************** Main ********************************************** */
+main{
+    display: grid;
+    grid-template-columns: 510px 770px;
+    grid-template-areas: "section__info" "section__img";
+}
+/* ************************************* section__info **************************************** */
+.section__info{
+    /* background: red; */
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 510px;
+    height: 760px;
+}
+.section__info footer{
+    font-family: "EagleLake-Regular";
+    font-size: 13px;
+    color: var(--color-1);
+    bottom: 0;
+    position: absolute;
+    left: 20px;
+}
+.div__info{
+    /* background: green; */
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 349px;
+    height: 343px;
+}
+.div__user{
+
+}
+.div__user a{
+    font-family: "EagleLake-Regular";
+    font-size: 18px;
+    color: var(--color-1);
+    text-decoration: none;
+}
+.div__title{
+    width: 349px;
+    height: 122px;
+}
+.div__title h1{
+    font-family: "EagleLake-Regular";
+    font-size: 35px;
+    color: var(--color-1);
+}
+.div__list{
+    width: 349px;
+    height: 125px;
+}
+.div__list li{
+    font-family: "EagleLake-Regular";
+    font-size: 18px;
+    color: var(--color-1);
+}
+/* ************************************* section__img **************************************** */
+.section__img{
+    grid-column: 2;
+    display: flex;
+    justify-content: space-around;
+    /* background: blue; */
+    width: 770px;
+    height: 760px;
+}
+.div__boxAllImgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.div__boxAllImgs div{
+    display: flex;
+    gap: 10px;
+    height: 132px;
+    overflow-x: auto;
+}
+.div__boxAllImgs img{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+.div__boxImg1{
+}
+.div__boxImg1 a{
+    
+}
+.div__boxImg1 img{
+    
+}
+.div__boxImg2{
+
+}
+.div__boxImg22 a{
+    
+}
+.div__boxImg2 img{
+    
+}
+.div__boxImg3{
+
+}
+.div__boxImg3 a{
+    
+}
+.div__boxImg3 img{
+    
+}
